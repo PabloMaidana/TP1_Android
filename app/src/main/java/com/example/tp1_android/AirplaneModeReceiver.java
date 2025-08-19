@@ -14,7 +14,7 @@ public class AirplaneModeReceiver extends BroadcastReceiver {
         if (airplaneModeActivated){
             Toast.makeText(context, "Modo avion activado", Toast.LENGTH_SHORT).show();
 
-            String phoneNumber = "1234567890";
+            String phoneNumber = "2664553747";
             Intent dialIntent = new Intent(Intent.ACTION_DIAL);
             dialIntent.setData(Uri.parse("tel:" + phoneNumber));
             dialIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
